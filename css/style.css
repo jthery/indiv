@@ -1,0 +1,148 @@
+* {
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+body {
+	/* height: 900px; */
+}
+/*banner + button-->*/
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Mali', cursive;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover {
+	cursor: pointer;
+}
+/*end banner + button-->*/
+/*navbar*/
+.mainnavbar {
+    margin-top: 8px;
+    /* background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%); */
+    width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+    height: 40px;
+	border: none;
+	font-family: 'Mali', cursive;
+	font-size: 1.2em;
+    /* border-radius: 50px; */
+}
+.mainnavbar .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.mainnavbar a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+}
+/*end navbar*/
+/*prestations*/
+.container-prestations {
+	width: 90%;
+	height: 600px;
+	margin-top: 80px;
+	margin-left: 15%;
+}
+.container-prestations .place-prestations {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.container-prestations .place-prestations-1 {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.container-prestations .prestations {
+	width: 200px;
+	height: 200px;
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	border-radius: 50%;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	/* text-shadow: 1px 1px 1px #333; */
+	font-family: 'Mali', cursive;
+	color: #333;
+}
+.container-prestations .place-prestations .prestations div{
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+.container-prestations .place-prestations-1 .prestations div{
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+/*end prestations*/
+/*footer*/
+footer {
+	background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.logo-footer {
+	text-align: center;
+	height: 50px;
+	background-color: #333;
+	color: #FFF;
+}
+/*end footer*/
