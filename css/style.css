@@ -258,6 +258,9 @@ footer {
 .container-intro > div {
 	text-align: center;
 }
+.container-intro div > p {
+	font-size: 0.9em;
+}
 /*end Intro épilations*/
 /*tarifs épilations*/
 table {
