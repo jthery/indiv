@@ -1,9 +1,13 @@
 * {
-    padding: 0; margin: 0; box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
+
 body {
 	/* height: 900px; */
 }
+
 /*banner + button-->*/
 header {
 	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
@@ -16,23 +20,24 @@ header {
 	overflow: hidden;
 	border-radius: 0 0 85% 85% / 30%;
 }
-header .overlay{
+
+header .overlay {
 	width: 100%;
 	height: 100%;
 	padding: 50px;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
-    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
 }
 
 h1 {
-    font-family: 'Great Vibes', cursive;
+	font-family: 'Great Vibes', cursive;
 	font-size: 60px;
 	margin-bottom: 30px;
 }
 
 h3 {
-    font-family: 'Mali', cursive;
+	font-family: 'Mali', cursive;
 	margin-bottom: 30px;
 }
 
@@ -46,35 +51,40 @@ button {
 	margin-bottom: 50px;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
+
 button:hover {
 	cursor: pointer;
 }
+
 /*end banner + button-->*/
 /*navbar*/
 .mainnavbar {
-    margin-top: 8px;
-    /* background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%); */
-    width: 100%;
+	margin-top: 8px;
+	/* background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%); */
+	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
-    height: 40px;
+	height: 40px;
 	border: none;
 	font-family: 'Mali', cursive;
 	font-size: 1.2em;
-    /* border-radius: 50px; */
+	/* border-radius: 50px; */
 }
+
 .mainnavbar .navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 10px;
 }
+
 .mainnavbar a {
-    text-decoration: none;
-    color: #333;
-    text-shadow: 1px 1px 1px #333;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 1px 1px 1px #333;
 }
-/*end navbar*/ 
+
+/*end navbar*/
 /*test*/
 .container-institut {
 	width: 1080px;
@@ -86,27 +96,31 @@ button:hover {
 	justify-content: center;
 	align-items: center;
 }
+
 .container-institut .container-img img {
 	height: 500px;
 	border-top: solid 2px rgb(180, 180, 180);
 	border-left: solid 2px rgb(180, 180, 180);
 }
+
 .container-institut .container-title-1 {
-	background-image: linear-gradient( 135deg, #08080869 10%, #00000017 60%);
+	background-image: linear-gradient(135deg, #08080869 10%, #00000017 60%);
 	height: 380px;
 	width: 300px;
 	color: #333;
 	margin-left: 50px;
 }
-.container-institut .container-title-1 > p {
+
+.container-institut .container-title-1>p {
 	font-size: 1.2em;
 	font-family: 'Mali', cursive;
 	text-align: center;
 	padding-top: 8px;
 	padding-left: 40px;
 }
+
 .container-institut .container-title-1 .container-txt {
-	background:rgba(255, 0, 0, 0.295);
+	background: rgba(255, 0, 0, 0.295);
 	height: 360px;
 	width: 320px;
 	display: flex;
@@ -117,6 +131,7 @@ button:hover {
 	font-family: 'Mali', cursive;
 	margin-left: 25px;
 }
+
 /*test*/
 /*prestations*/
 .container-prestations {
@@ -128,6 +143,7 @@ button:hover {
 	background-repeat: no-repeat; */
 	/* background-size: cover; */
 }
+
 .container-prestations .place-prestations {
 	width: 100%;
 	height: 300px;
@@ -135,6 +151,7 @@ button:hover {
 	flex-direction: row;
 	justify-content: space-around;
 }
+
 .container-prestations .place-prestations-1 {
 	width: 100%;
 	height: 300px;
@@ -142,10 +159,11 @@ button:hover {
 	flex-direction: row;
 	justify-content: space-around;
 }
+
 .container-prestations .prestations {
 	width: 200px;
 	height: 200px;
-    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
 	border-radius: 50%;
 	border: none;
 	display: flex;
@@ -156,7 +174,8 @@ button:hover {
 	font-family: 'Mali', cursive;
 	color: #333;
 }
-.container-prestations .place-prestations .prestations div{
+
+.container-prestations .place-prestations .prestations div {
 	border: none;
 	outline: none;
 	padding: 10px 20px;
@@ -165,7 +184,8 @@ button:hover {
 	background: #fff;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
-.container-prestations .place-prestations-1 .prestations div{
+
+.container-prestations .place-prestations-1 .prestations div {
 	border: none;
 	outline: none;
 	padding: 10px 20px;
@@ -174,18 +194,20 @@ button:hover {
 	background: #fff;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
+
 /*end prestations*/
 /*carte cadeau*/
 .container-cadeau {
 	width: 1080px;
 	height: 400px;
-	background-image: linear-gradient( 135deg, #08080869 10%, #00000017 60%);
+	background-image: linear-gradient(135deg, #08080869 10%, #00000017 60%);
 	/* border: solid 1px #333; */
 	box-shadow: 0 3px 50px 0 #f86a6a;
 	border-radius: 12px;
 
 }
-.container-cadeau .cadeau{
+
+.container-cadeau .cadeau {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -193,16 +215,19 @@ button:hover {
 	justify-content: space-around;
 	align-items: center;
 }
+
 .container-cadeau .cadeau div {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
+
 .container-cadeau .cadeau .p-cadeau {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Mali', cursive;
 }
+
 .container-cadeau .cadeau .p-cadeau .lien-cadeau {
 	display: flex;
 	justify-content: flex-end;
@@ -210,16 +235,19 @@ button:hover {
 	width: 100%;
 	font-size: 1em;
 }
+
 .container-cadeau .cadeau .p-cadeau p {
 	font-size: 1.1em;
 }
+
 .container-cadeau .cadeau .p-cadeau .lien-cadeau a {
 	color: #333;
 }
+
 /*end carte cadeau*/
 /*footer*/
 footer {
-	background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
 	height: 250px;
 	display: flex;
 	justify-content: center;
@@ -231,6 +259,7 @@ footer {
 	margin-top: 50px;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
+
 .logo-footer {
 	text-align: center;
 	height: 50px;
@@ -240,10 +269,12 @@ footer {
 	align-items: center;
 	justify-content: center;
 }
-.logo-footer  a {
+
+.logo-footer a {
 	text-decoration: none;
 	color: #333;
 }
+
 /*end footer*/
 /*Others pages*/
 /*Intro épilations*/
@@ -255,21 +286,26 @@ footer {
 	margin-top: 20px;
 	padding-top: 8px;
 }
-.container-intro  div h1 {
+
+.container-intro div h1 {
 	margin: 0;
 }
-.container-intro > div {
+
+.container-intro>div {
 	text-align: center;
 	padding: 0;
 
 }
-.container-intro div > p {
+
+.container-intro div>p {
 	font-size: 0.9em;
 	padding-top: 0;
 }
+
 .radius-img {
 	border-radius: 0 0 85% 85% / 30%;
 }
+
 /*end Intro épilations*/
 /*tarifs épilations*/
 table {
@@ -277,16 +313,18 @@ table {
 	font-family: 'Mali', cursive;
 	margin-top: 30px;
 }
+
 .table-center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-left: 10px;
 }
+
 .txt-font {
 	color: rgb(247, 117, 117);
 	text-shadow: 1px 1px 1px #333;
 	font-size: 1.2em;
 }
-/*end tarifs épilations*/
 
+/*end tarifs épilations*/
