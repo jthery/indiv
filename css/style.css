@@ -258,7 +258,11 @@ footer {
 .container-intro > div {
 	text-align: center;
 }
-
 /*end Intro épilations*/
 /*tarifs épilations*/
+table {
+	width: 100%;
+	font-family: 'Mali', cursive;
+
+}
 /*end tarifs épilations*/
