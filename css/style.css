@@ -6,6 +6,9 @@
 
 body {
 	/* height: 900px; */
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 /*banner + button-->*/
@@ -304,6 +307,7 @@ footer {
 
 .radius-img {
 	border-radius: 0 0 85% 85% / 30%;
+	width: 100%;
 }
 
 /*end Intro épilations*/
