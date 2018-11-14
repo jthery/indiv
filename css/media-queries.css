@@ -1,4 +1,7 @@
 @media(max-width: 640px) {
+    body {
+        width: 480px;
+    }
     /*banner accueil*/
     h1 {
         font-size: 2.5em;     
@@ -8,5 +11,23 @@
         font-size: 1.3em;
     }
     /*end banner accueil*/
+    /*carte cadeau*/
+    .container-cadeau {
+        width: 480px;
+        height: 400px;
+    }
+    
+    .container-cadeau .cadeau {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container-cadeau .cadeau .p-cadeau p {
+        font-size: 0.9em;
+    }
+    /*end carte cadeau*/
 
 }
