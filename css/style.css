@@ -102,8 +102,8 @@ button:hover {
 
 .container-institut .container-img img {
 	height: 500px;
-	border-top: solid 2px rgb(180, 180, 180);
-	border-left: solid 2px rgb(180, 180, 180);
+	/* border-top: solid 2px rgb(0, 0, 0);
+	border-left: solid 2px rgb(0, 0, 0); */
 }
 
 .container-institut .container-title-1 {
@@ -187,7 +187,6 @@ button:hover {
 	outline: none;
 	padding: 10px 20px;
 	border-radius: 50px;
-	color: #333;
 	background: #fff;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
@@ -197,11 +196,23 @@ button:hover {
 	outline: none;
 	padding: 10px 20px;
 	border-radius: 50px;
-	color: #333;
 	background: #fff;
 	box-shadow: 0 3px 20px 0 #0000003b;
 }
-
+.container-prestations .place-prestations-1 .prestations div a {
+	color: #333;
+	text-decoration: none;
+}
+.container-prestations .place-prestations .prestations div a {
+	color: #333;
+	text-decoration: none;
+}
+.container-prestations .place-prestations .prestations div a:hover {
+	color: rgba(255, 0, 0, 0.295);
+}
+.container-prestations .place-prestations-1 .prestations div a:hover {
+	color: rgba(255, 0, 0, 0.295);
+}
 /*end prestations*/
 /*carte cadeau*/
 .container-cadeau {
