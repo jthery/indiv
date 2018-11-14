@@ -1,0 +1,12 @@
+@media(max-width: 640px) {
+    /*banner accueil*/
+    h1 {
+        font-size: 2.5em;     
+    }
+    
+    h3 {
+        font-size: 1.3em;
+    }
+    /*end banner accueil*/
+
+}
