@@ -36,6 +36,9 @@
         margin-right: 105px;
     }
     /*end test*/
+    /*prestations*/
+
+    /*end prestations*/
     /*carte cadeau*/
     .container-cadeau {
         width: 480px;
@@ -56,5 +59,19 @@
     }
 
     /*end carte cadeau*/
+    /*container intro epilation/soinsvisage/soinscorps*/
+    .container-intro  {
+        height: 240px;
+        width: 100%;
+    }
 
+    .container-intro div > p {
+        padding-top: 18px;
+    }
+    /*intro soinsvisage simplement*/
+    #intro-media {
+        height: 360px;
+    }
+    /*end intro soinsvisage simplement/*
+    /*end container intro epilation/soinsvisage/soinscorps*/
 }
