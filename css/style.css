@@ -177,6 +177,10 @@ button:hover {
 	font-family: 'Mali', cursive;
 	color: #333;
 }
+.container-prestations .prestations:hover {
+	transform: scale(1.2);
+	background-image: linear-gradient(135deg, #08080869 10%, #00000017 60%);
+}
 
 .container-prestations .place-prestations .prestations div {
 	border: none;
