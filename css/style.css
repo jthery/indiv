@@ -9,9 +9,6 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJtdmHUf-IOjMsi_sdjGG90jaXxC1LVKHk1gBm5krWOPJMx0Dh");
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 /*banner + button-->*/
@@ -38,7 +35,7 @@ header .overlay {
 
 h1 {
 	font-family: 'Great Vibes', cursive;
-	font-size: 60px;
+	font-size: 3.8em;
 	margin-bottom: 30px;
 }
 
@@ -89,6 +86,10 @@ button:hover {
 	color: #333;
 	text-shadow: 1px 1px 1px #333;
 }
+
+/* .mainnavbar .navbar .transition-prestations:hover:after {
+	transition: all 5s;
+} */
 
 /*end navbar*/
 /*test*/
@@ -278,12 +279,10 @@ button:hover {
 footer {
 	background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
 	height: 250px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 100%;
 	display: flex;
 	align-items: flex-end;
+	justify-content: center;
 	border-radius: 85% 85% 0 0 / 30%;
 	margin-top: 50px;
 	box-shadow: 0 3px 20px 0 #0000003b;
