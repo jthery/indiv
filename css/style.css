@@ -361,5 +361,20 @@ table {
 iframe {
 	border-radius: 15px;
 	margin-top: 50px;
-	margin-left: 180px;
+	margin-left: 200px;
+}
+/*infos contact*/
+.content-contact {
+	text-align: center;
+	font-family: 'Mali', cursive;
+}
+.content-contact h2{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	color: rgb(247, 117, 117);
+}
+
+.content-contact p {
+	padding: 0;
+	margin:0;
 }
