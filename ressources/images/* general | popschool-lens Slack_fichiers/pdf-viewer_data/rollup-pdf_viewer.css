@@ -1,0 +1,18 @@
+@font-face{font-family:appleLogo;src:local("Lucida Grande");unicode-range:U+F8FF}
+.t-keyboard_key{background:#e8e8e8;padding:2px 8px;font-size:13px;font-weight:400;min-width:24px;height:27px;margin:0 2px;border-radius:5px;color:#2c2d30;border:1px solid #919193;box-shadow:0 1px 0 #919193;text-shadow:none;display:inline-block;text-align:center;vertical-align:middle;line-height:21px}
+.t-keyboard_key--slim{height:20px;margin:-3px 2px 0;padding:2px 6px;line-height:14px;font-size:12px}
+html:not(.slim_scrollbar) body{border-right:.25rem solid transparent;border-right:none}
+html:not(.slim_scrollbar) body::-webkit-scrollbar{position:absolute;-webkit-appearance:none;width:16px}
+html:not(.slim_scrollbar) body::-webkit-scrollbar-thumb,html:not(.slim_scrollbar) body::-webkit-scrollbar-track{background-clip:padding-box!important;color:#F3F3F3;border-left:4px solid #F3F3F3;border-right:4px solid #F3F3F3;border-radius:6px/4px}
+html:not(.slim_scrollbar) body::-webkit-scrollbar-track{background:#F3F3F3;box-shadow:inset 0 -4px 0 0,inset 0 4px 0 0}
+html:not(.slim_scrollbar) body::-webkit-scrollbar-thumb{background:rgba(44,45,48,.52);box-shadow:inset 0 -2px,inset 0 -3px,inset 0 2px,inset 0 3px;min-height:36px}
+html:not(.slim_scrollbar) body::-webkit-scrollbar-corner{background:#F3F3F3}
+.slim_scrollbar body{margin-right:2px}
+.slim_scrollbar body::-webkit-scrollbar{position:absolute;-webkit-appearance:none;width:6px}
+.slim_scrollbar body::-webkit-scrollbar-thumb{background-color:rgba(44,45,48,.5);background-clip:padding-box!important;border-radius:3px;color:rgba(44,45,48,.52);min-height:36px}
+.slim_scrollbar body::-webkit-scrollbar-thumb:hover{background-color:rgba(44,45,48,.8)}
+.pdf_page{margin-bottom:10px;text-align:center;position:relative}
+.textlayer{position:absolute;left:0;top:0;right:0;margin-left:auto;margin-right:auto;bottom:0;overflow:hidden;opacity:.2;line-height:1;text-align:initial}
+.textlayer>div{color:transparent;position:absolute;white-space:pre;cursor:text;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-o-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0}
+.textlayer ::selection{background:#00f}
+.textlayer ::-moz-selection{background:#00f}

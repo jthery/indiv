@@ -137,15 +137,16 @@ button:hover {
 	font-size: 0.9em;
 	font-family: 'Mali', cursive;
 	margin-left: 25px;
+	padding: 10px;
 }
 
 /*test*/
 /*prestations*/
 .container-prestations {
-	width: 90%;
+	width: 100%;
 	height: 600px;
 	margin-top: 80px;
-	margin-left: 15%;
+	margin-left: 12.5%;
 	/* background-image: url("../ressources/images/photo16.png");
 	background-repeat: no-repeat; */
 	/* background-size: cover; */
@@ -356,3 +357,9 @@ table {
 }
 
 /*end tarifs épilations*/
+/*map*/
+iframe {
+	border-radius: 15px;
+	margin-top: 50px;
+	margin-left: 180px;
+}
