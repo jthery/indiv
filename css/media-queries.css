@@ -4,6 +4,7 @@
         padding: 0;
         margin: 0;
     }
+
     /*navbar*/
     .mainnavbar {
         font-size: 1em;
@@ -17,6 +18,7 @@
     h3 {
         font-size: 1.3em;
     }
+
     /*test*/
     .container-institut {
         flex-direction: column;
@@ -26,9 +28,12 @@
         margin: 0;
         padding: 0;
     }
-    .container-institut .container-img, {
+
+    .container-institut .container-img,
+        {
         max-width: 400px;
     }
+
     .container-institut .container-img img {
         /* width: 350px; */
         max-width: 350px;
@@ -42,26 +47,49 @@
     .container-institut .container-title-1 p {
         padding-left: 0;
     }
+
     .container-institut .container-title-1 .container-txt {
         margin: 0;
         width: 300px;
     }
 
-    /*carte cadeau*/
-    .container-cadeau, .container-cadeau .cadeau div img {
-        width: 400px;
-        height: 600px;
-        max-width: 400px;
- 
+    /*prestations*/
+    .container-prestations {
+        margin-left: 0;
+        height: 100%;
     }
+
+    .container-prestations .place-prestations {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .container-prestations .place-prestations-1 {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    /*carte cadeau*/
+    .container-cadeau,
+    .container-cadeau .cadeau div img {
+        height: 600px;
+        max-width: 380px;
+        margin: 0;
+
+    }
+
     .container-cadeau .cadeau {
         display: flex;
         flex-direction: column;
     }
 
-
-    .container-cadeau .cadeau .p-cadeau  p {
+    .container-cadeau .cadeau .p-cadeau p {
         font-size: 0.9em;
+    }
+
+    .container-cadeau .cadeau .p-cadeau .lien-cadeau {
+        justify-content: center;
+        width: 200px;
     }
 
     /*OTHERS PAGES*/
