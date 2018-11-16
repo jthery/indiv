@@ -302,6 +302,12 @@ footer {
 .list-inline li a {
 	margin: 5px;
 }
+.fab {
+	color:	rgb(247, 117, 117);
+}
+.fab:hover {
+	color: rgb(255, 57, 57)
+}
 
 /*end footer*/
 /*Others pages*/
