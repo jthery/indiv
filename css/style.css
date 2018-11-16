@@ -277,7 +277,7 @@ footer {
 
 .logo-footer {
 	text-align: center;
-	height: 50px;
+	height: 40px;
 	color: #FFF;
 	width: 100%;
 	display: flex;
@@ -288,6 +288,19 @@ footer {
 .logo-footer a {
 	text-decoration: none;
 	color: #333;
+}
+
+.text-center {
+	width: 100%;
+}
+.list-inline {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.list-inline li a {
+	margin: 5px;
 }
 
 /*end footer*/
