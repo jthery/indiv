@@ -306,7 +306,7 @@ footer {
 	color:	rgb(247, 117, 117);
 }
 .fab:hover {
-	color: rgb(255, 57, 57)
+	color: rgb(255, 57, 57);
 }
 
 /*end footer*/
@@ -430,3 +430,7 @@ textarea:focus {
 button {
 	margin-left: .5em;
 }
+
+
+
+
