@@ -4,11 +4,38 @@
         padding: 0;
         margin: 0;
     }
-
+    /*navbar*/
     .mainnavbar {
         font-size: 1em;
     }
-    
+
+    /*banner accueil*/
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+    /*carte cadeau*/
+    .container-cadeau, .container-cadeau .cadeau div img {
+        width: 400px;
+        height: 600px;
+        max-width: 400px;
+ 
+    }
+    .container-cadeau .cadeau {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container-cadeau .cadeau .p-cadeau  p {
+        font-size: 1em;
+    }
+
+
+    /*OTHERS PAGES*/
     /*container intro epilation/maquillage/soinscorps*/
     .container-intro {
         min-height: 280px;
@@ -28,7 +55,9 @@
     form {
         width: 300px;
     }
-    input, textarea {
+
+    input,
+    textarea {
         max-width: 300px;
     }
 
@@ -38,5 +67,6 @@
         width: 100%;
         min-height: 400px;
     }
+
     /*end googlemap*/
 }
