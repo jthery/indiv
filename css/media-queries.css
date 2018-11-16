@@ -32,9 +32,11 @@
         max-height: 400px;
         max-width: 460px;
     }
+
     .container-institut .container-title-1 {
         margin-right: 105px;
     }
+
     /*end test*/
     /*prestations*/
 
@@ -60,25 +62,28 @@
 
     /*end carte cadeau*/
     /*container intro epilation/soinsvisage/soinscorps*/
-    .container-intro  {
+    .container-intro {
         height: 240px;
         width: 100%;
     }
 
-    .container-intro div > p {
+    .container-intro div>p {
         padding-top: 18px;
     }
+
     /*intro soinsvisage simplement*/
     #intro-media {
         height: 360px;
     }
+
     /*end intro soinsvisage simplement/*
     /*end container intro epilation/soinsvisage/soinscorps*/
     /*googlemap*/
     iframe {
-        margin: 0;
+        margin: 20px 0 0 0;
         width: 480px;
         height: 400px;
     }
+
     /*end googlemap*/
 }
