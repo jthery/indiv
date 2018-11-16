@@ -17,6 +17,36 @@
     h3 {
         font-size: 1.3em;
     }
+    /*test*/
+    .container-institut {
+        flex-direction: column;
+        width: 400px;
+        max-width: 400px;
+        height: 700px;
+        margin: 0;
+        padding: 0;
+    }
+    .container-institut .container-img, {
+        max-width: 400px;
+    }
+    .container-institut .container-img img {
+        /* width: 350px; */
+        max-width: 350px;
+        max-height: 280px;
+    }
+
+    .container-institut .container-title-1 {
+        margin: 20px;
+    }
+
+    .container-institut .container-title-1 p {
+        padding-left: 0;
+    }
+    .container-institut .container-title-1 .container-txt {
+        margin: 0;
+        width: 300px;
+    }
+
     /*carte cadeau*/
     .container-cadeau, .container-cadeau .cadeau div img {
         width: 400px;
@@ -31,9 +61,8 @@
 
 
     .container-cadeau .cadeau .p-cadeau  p {
-        font-size: 1em;
+        font-size: 0.9em;
     }
-
 
     /*OTHERS PAGES*/
     /*container intro epilation/maquillage/soinscorps*/
