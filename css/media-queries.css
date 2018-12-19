@@ -1,129 +1,78 @@
-@media(max-width: 640px) {
-    body {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+@media(min-width: 576px) {
 
-    /*navbar*/
-    .mainnavbar {
-        font-size: 1em;
-    }
+	/* header */
+	h1 {
+		font-size: 3.8em;
+	}
 
-    /*banner accueil*/
-    h1 {
-        font-size: 2.5em;
-    }
+	.mainnavbar {
+		font-size: 1.2em;
+	}
 
-    h3 {
-        font-size: 1.3em;
-    }
+	/* Institut */
+	.container-institut .container-img img {
+		height: 500px;
+	}
 
-    /*test*/
-    .container-institut {
-        flex-direction: column;
-        width: 400px;
-        max-width: 400px;
-        height: 700px;
-        margin: 0;
-        padding: 0;
-    }
+	.container-institut {
+		height: 500px;
+		flex-direction: row;
+		justify-content: center;
+		margin-bottom: 0;
+	}
 
-    .container-institut .container-img,
-        {
-        max-width: 400px;
-    }
+	.container-institut .container-title-1 {
+		margin-left: 50px;
+	}
 
-    .container-institut .container-img img {
-        /* width: 350px; */
-        max-width: 350px;
-        max-height: 280px;
-    }
+	.container-institut .container-title-1 .container-txt {
+		width: 320px;
+		margin-left: 25px;
+		font-size: 0.9em;
+	}
 
-    .container-institut .container-title-1 {
-        margin: 20px;
-    }
+	/* Prestations */
+	.place-prestations {
+		height: 300px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
 
-    .container-institut .container-title-1 p {
-        padding-left: 0;
-    }
+	.place-prestations-1 {
+		height: 300px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
 
-    .container-institut .container-title-1 .container-txt {
-        margin: 0;
-        width: 300px;
-    }
+	/* Carte-cadeau */
+	.container-cadeau {
+		margin-bottom: 0px;
+	}
 
-    /*prestations*/
-    .container-prestations {
-        margin-left: 0;
-        height: 100%;
-    }
+	.container-cadeau .cadeau {
+		flex-direction: row;
+	}
 
-    .container-prestations .place-prestations {
-        flex-direction: column;
-        height: 600px;
-    }
+	.container-cadeau .cadeau .p-cadeau .lien-cadeau {
+		font-size: 1.2em;
+	}
 
-    .container-prestations .place-prestations-1 {
-        flex-direction: column;
-        height: 400px;
-    }
+	.container-cadeau .cadeau .p-cadeau p {
+		font-size: 1.2em;
+	}
+	/* OTHER PAGES */
+	.container-intro {
+		height: 250px;
+	}
+	/*page contact form*/
+	form {
+		width: 400px;
+		margin-top: 60px;
+	}
 
-    /*carte cadeau*/
-    .container-cadeau,
-    .container-cadeau .cadeau div img {
-        height: 600px;
-        max-width: 380px;
-        margin: 0;
-
-    }
-
-    .container-cadeau .cadeau {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .container-cadeau .cadeau .p-cadeau p {
-        font-size: 0.9em;
-    }
-
-    .container-cadeau .cadeau .p-cadeau .lien-cadeau {
-        justify-content: center;
-        width: 200px;
-    }
-
-    /*OTHERS PAGES*/
-    /*container intro epilation/maquillage/soinscorps*/
-    .container-intro {
-        min-height: 280px;
-    }
-
-    .container-intro div p {
-        padding-top: 18px;
-    }
-
-    /*intro page soinsvisage simplement*/
-    .intro-sv {
-        height: 400px;
-        min-height: 440px;
-    }
-
-    /*page contact form*/
-    form {
-        width: 300px;
-    }
-
-    input,
+	input,
     textarea {
-        max-width: 300px;
+        width: 400px;
     }
-
-    /*googlemap page contact*/
-    iframe {
-        margin: 20px 0 0 0;
-        width: 100%;
-        min-height: 400px;
-    }
-
-    /*end googlemap*/
 }
